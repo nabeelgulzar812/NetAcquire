@@ -1,0 +1,3 @@
+﻿Public Class frmReagentLotNumberReportSickledexvb
+
+End Class

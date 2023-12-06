@@ -70,10 +70,100 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fcdrInputBox.Designer.vb">
+      <DependentUpon>fcdrInputBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fcdrInputBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\fcdrMsgBox.Designer.vb">
+      <DependentUpon>fcdrMsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\fcdrMsgBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm MicroUsage.Designer.vb">
+      <DependentUpon>frm MicroUsage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm MicroUsage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm unfinished.Designer.vb">
+      <DependentUpon>frm unfinished.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm unfinished.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frm24hrUrine.Designer.vb">
+      <DependentUpon>frm24hrUrine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frm24hrUrine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmActivityLogViewer.Designer.vb">
+      <DependentUpon>frmActivityLogViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmActivityLogViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\frmAddEditStudent.designer.vb">
       <DependentUpon>frmAddEditStudent.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\frmAddEditStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmAddResult.Designer.vb">
+      <DependentUpon>frmAddResult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAddResult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmAdmin.Designer.vb">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmArchives.Designer.vb">
+      <DependentUpon>frmArchives.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmArchives.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmBatchOccult.Designer.vb">
+      <DependentUpon>frmBatchOccult.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmBatchOccult.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmBioAbnormals.Designer.vb">
+      <DependentUpon>frmBioAbnormals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmBioAbnormals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmBioQC.Designer.vb">
+      <DependentUpon>frmBioQC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmBioQC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmBioTodayQC.Designer.vb">
+      <DependentUpon>frmBioTodayQC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmBioTodayQC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmCollatedReport.Designer.vb">
+      <DependentUpon>frmCollatedReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCollatedReport.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\frmComputeSubjectGrade.designer.vb">
@@ -82,11 +172,149 @@
     <Compile Include="Form\frmComputeSubjectGrade.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form\frmCreatClearance.Designer.vb">
+      <DependentUpon>frmCreatClearance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmCreatClearance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmDaily.Designer.vb">
+      <DependentUpon>frmDaily.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmDaily.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExternalBatch.Designer.vb">
+      <DependentUpon>frmExternalBatch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExternalBatch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExternalReport.Designer.vb">
+      <DependentUpon>frmExternalReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExternalReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExternalStats.Designer.vb">
+      <DependentUpon>frmExternalStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExternalStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExternalTests.Designer.vb">
+      <DependentUpon>frmExternalTests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExternalTests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmExternalWorkList.Designer.vb">
+      <DependentUpon>frmExternalWorkList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmExternalWorkList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmGlucose.Designer.vb">
+      <DependentUpon>frmGlucose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmGlucose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmGlucoseByName.Designer.vb">
+      <DependentUpon>frmGlucoseByName.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmGlucoseByName.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form\frmMain.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\frmMain.Designer.vb">
       <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMicroByDate.Designer.vb">
+      <DependentUpon>frmMicroByDate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMicroByDate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMicroListDemographics.Designer.vb">
+      <DependentUpon>frmMicroListDemographics.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMicroListDemographics.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmMicroUnusedSampleIDs.Designer.vb">
+      <DependentUpon>frmMicroUnusedSampleIDs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmMicroUnusedSampleIDs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmPatHistory.Designer.vb">
+      <DependentUpon>frmPatHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmPatHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmPhoneLogHistory.Designer.vb">
+      <DependentUpon>frmPhoneLogHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmPhoneLogHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmPrintOptions.Designer.vb">
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmPrintOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmReagentLotNumberReport.Designer.vb">
+      <DependentUpon>frmReagentLotNumberReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmReagentLotNumberReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmReagentLotNumberReportMalaria.Designer.vb">
+      <DependentUpon>frmReagentLotNumberReportMalaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmReagentLotNumberReportMalaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmScan1.Designer.vb">
+      <DependentUpon>frmScan1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmScan1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmStockControl.Designer.vb">
+      <DependentUpon>frmStockControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmStockControl.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmTests.Designer.vb">
+      <DependentUpon>frmTests.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmTests.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmTotals.Designer.vb">
+      <DependentUpon>frmTotals.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmTotals.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmUnfinished.Designer.vb">
+      <DependentUpon>frmUnfinished.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmUnfinished.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\frmUPro.Designer.vb">
+      <DependentUpon>frmUPro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form\frmUPro.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="modEncriptDecript.vb" />
@@ -109,14 +337,125 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form\Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fcdrInputBox.resx">
+      <DependentUpon>fcdrInputBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\fcdrMsgBox.resx">
+      <DependentUpon>fcdrMsgBox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm MicroUsage.resx">
+      <DependentUpon>frm MicroUsage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm unfinished.resx">
+      <DependentUpon>frm unfinished.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frm24hrUrine.resx">
+      <DependentUpon>frm24hrUrine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmActivityLogViewer.resx">
+      <DependentUpon>frmActivityLogViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\frmAddEditStudent.resx">
       <DependentUpon>frmAddEditStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmAddResult.resx">
+      <DependentUpon>frmAddResult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmAdmin.resx">
+      <DependentUpon>frmAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmArchives.resx">
+      <DependentUpon>frmArchives.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmBatchOccult.resx">
+      <DependentUpon>frmBatchOccult.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmBioAbnormals.resx">
+      <DependentUpon>frmBioAbnormals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmBioQC.resx">
+      <DependentUpon>frmBioQC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmBioTodayQC.resx">
+      <DependentUpon>frmBioTodayQC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCollatedReport.resx">
+      <DependentUpon>frmCollatedReport.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmComputeSubjectGrade.resx">
       <DependentUpon>frmComputeSubjectGrade.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmCreatClearance.resx">
+      <DependentUpon>frmCreatClearance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmDaily.resx">
+      <DependentUpon>frmDaily.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExternalBatch.resx">
+      <DependentUpon>frmExternalBatch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExternalReport.resx">
+      <DependentUpon>frmExternalReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExternalStats.resx">
+      <DependentUpon>frmExternalStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExternalTests.resx">
+      <DependentUpon>frmExternalTests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmExternalWorkList.resx">
+      <DependentUpon>frmExternalWorkList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmGlucose.resx">
+      <DependentUpon>frmGlucose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmGlucoseByName.resx">
+      <DependentUpon>frmGlucoseByName.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\frmMain.resx">
       <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMicroByDate.resx">
+      <DependentUpon>frmMicroByDate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMicroListDemographics.resx">
+      <DependentUpon>frmMicroListDemographics.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmMicroUnusedSampleIDs.resx">
+      <DependentUpon>frmMicroUnusedSampleIDs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmPhoneLogHistory.resx">
+      <DependentUpon>frmPhoneLogHistory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmPrintOptions.resx">
+      <DependentUpon>frmPrintOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmReagentLotNumberReport.resx">
+      <DependentUpon>frmReagentLotNumberReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmReagentLotNumberReportMalaria.resx">
+      <DependentUpon>frmReagentLotNumberReportMalaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmScan1.resx">
+      <DependentUpon>frmScan1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmStockControl.resx">
+      <DependentUpon>frmStockControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmTests.resx">
+      <DependentUpon>frmTests.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmTotals.resx">
+      <DependentUpon>frmTotals.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmUnfinished.resx">
+      <DependentUpon>frmUnfinished.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\frmUPro.resx">
+      <DependentUpon>frmUPro.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
