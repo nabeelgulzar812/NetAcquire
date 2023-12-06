@@ -1,0 +1,12 @@
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe.config
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.pdb
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.xml
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.Resources.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.vbproj.GenerateResource.Cache
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.exe
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.xml
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.pdb
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmAddEditStudent.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmComputeSubjectGrade.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmMain.resources
