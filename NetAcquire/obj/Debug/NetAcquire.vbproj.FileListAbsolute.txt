@@ -1,4 +1,8 @@
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.Form1.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe.config
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.pdb
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.xml
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmTest.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.fcdrInputBox.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.fcdrMsgBox.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frm_MicroUsage.resources
@@ -17,6 +21,7 @@ C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.fr
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmComputeSubjectGrade.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmCreatClearance.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmDaily.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmEditAll.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmExternalBatch.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmExternalReport.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmExternalStats.resources
@@ -24,6 +29,7 @@ C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.fr
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmExternalWorkList.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmGlucose.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmGlucoseByName.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmLogin.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmMain.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmMicroByDate.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmMicroListDemographics.resources
@@ -36,14 +42,10 @@ C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.fr
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmStockControl.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmTests.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmTotals.resources
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmUnfinished.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmUPro.resources
+C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmUser.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.Resources.resources
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.vbproj.GenerateResource.Cache
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe.config
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.exe
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.pdb
-C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\bin\Debug\NetAcquire.xml
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.exe
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.xml
 C:\Users\junai\OneDrive\Desktop\NA\NetAcquire\NetAcquire\obj\Debug\NetAcquire.pdb

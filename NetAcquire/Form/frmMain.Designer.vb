@@ -101,24 +101,33 @@ Partial Class frmMain
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TechnicalAssistanceToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TakePictureAndSendToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SendToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.NumericUpDown1 = New System.Windows.Forms.NumericUpDown()
+        Me.ToolStrip2 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton5 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton6 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton7 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton8 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton9 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton10 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton11 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripButton12 = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel3 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel4 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel5 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel6 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel7 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripLabel8 = New System.Windows.Forms.ToolStripLabel()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ToolStrip2.SuspendLayout()
+        Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -593,7 +602,7 @@ Partial Class frmMain
         '
         'HelpToolStripMenuItem
         '
-        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TechnicalAssistanceToolStripMenuItem, Me.AboutToolStripMenuItem})
+        Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TechnicalAssistanceToolStripMenuItem, Me.AboutToolStripMenuItem, Me.TakePictureAndSendToolStripMenuItem, Me.SendToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
         Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(53, 24)
         Me.HelpToolStripMenuItem.Text = "&Help"
@@ -610,12 +619,24 @@ Partial Class frmMain
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
+        'TakePictureAndSendToolStripMenuItem
+        '
+        Me.TakePictureAndSendToolStripMenuItem.Name = "TakePictureAndSendToolStripMenuItem"
+        Me.TakePictureAndSendToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.TakePictureAndSendToolStripMenuItem.Text = "Take Picture"
+        '
+        'SendToolStripMenuItem
+        '
+        Me.SendToolStripMenuItem.Name = "SendToolStripMenuItem"
+        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.SendToolStripMenuItem.Text = "Send Email"
+        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(12, 45)
+        Me.Button1.Location = New System.Drawing.Point(12, 111)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(76, 72)
         Me.Button1.TabIndex = 7
@@ -628,7 +649,7 @@ Partial Class frmMain
         Me.Button2.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(201, 45)
+        Me.Button2.Location = New System.Drawing.Point(191, 111)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(76, 72)
         Me.Button2.TabIndex = 8
@@ -641,7 +662,7 @@ Partial Class frmMain
         Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(106, 45)
+        Me.Button3.Location = New System.Drawing.Point(109, 111)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(76, 72)
         Me.Button3.TabIndex = 9
@@ -649,113 +670,202 @@ Partial Class frmMain
         Me.Button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button3.UseVisualStyleBackColor = False
         '
-        'PictureBox1
+        'ToolStrip2
         '
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.ErrorImage = CType(resources.GetObject("PictureBox1.ErrorImage"), System.Drawing.Image)
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(317, 65)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(54, 52)
-        Me.PictureBox1.TabIndex = 10
-        Me.PictureBox1.TabStop = False
+        Me.ToolStrip2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(46, Byte), Integer))
+        Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton2, Me.ToolStripButton5, Me.ToolStripButton6, Me.ToolStripButton7, Me.ToolStripButton8, Me.ToolStripButton9, Me.ToolStripButton10, Me.ToolStripButton11, Me.ToolStripButton12})
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 28)
+        Me.ToolStrip2.Name = "ToolStrip2"
+        Me.ToolStrip2.Size = New System.Drawing.Size(1393, 68)
+        Me.ToolStrip2.TabIndex = 24
+        Me.ToolStrip2.Text = "ToolStrip2"
         '
-        'PictureBox2
+        'ToolStripButton2
         '
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(377, 65)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(56, 50)
-        Me.PictureBox2.TabIndex = 11
-        Me.PictureBox2.TabStop = False
+        Me.ToolStripButton2.AutoSize = False
+        Me.ToolStripButton2.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton2.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton2.Image = CType(resources.GetObject("ToolStripButton2.Image"), System.Drawing.Image)
+        Me.ToolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton2.Name = "ToolStripButton2"
+        Me.ToolStripButton2.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton2.Text = "A"
+        Me.ToolStripButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'PictureBox4
+        'ToolStripButton5
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(439, 65)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(59, 50)
-        Me.PictureBox4.TabIndex = 13
-        Me.PictureBox4.TabStop = False
+        Me.ToolStripButton5.AutoSize = False
+        Me.ToolStripButton5.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton5.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton5.Image = CType(resources.GetObject("ToolStripButton5.Image"), System.Drawing.Image)
+        Me.ToolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton5.Name = "ToolStripButton5"
+        Me.ToolStripButton5.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton5.Text = "B"
+        Me.ToolStripButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'PictureBox5
+        'ToolStripButton6
         '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(504, 65)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(53, 50)
-        Me.PictureBox5.TabIndex = 14
-        Me.PictureBox5.TabStop = False
+        Me.ToolStripButton6.AutoSize = False
+        Me.ToolStripButton6.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton6.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton6.Image = CType(resources.GetObject("ToolStripButton6.Image"), System.Drawing.Image)
+        Me.ToolStripButton6.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton6.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton6.Name = "ToolStripButton6"
+        Me.ToolStripButton6.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton6.Text = "C"
+        Me.ToolStripButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStripButton6.ToolTipText = "Home Logo"
         '
-        'CheckBox1
+        'ToolStripButton7
         '
-        Me.CheckBox1.AutoSize = True
-        Me.CheckBox1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.CheckBox1.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.CheckBox1.Location = New System.Drawing.Point(627, 76)
-        Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(114, 21)
-        Me.CheckBox1.TabIndex = 15
-        Me.CheckBox1.Text = "Auto-Refresh"
-        Me.CheckBox1.UseVisualStyleBackColor = False
+        Me.ToolStripButton7.AutoSize = False
+        Me.ToolStripButton7.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton7.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton7.Image = CType(resources.GetObject("ToolStripButton7.Image"), System.Drawing.Image)
+        Me.ToolStripButton7.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton7.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton7.Name = "ToolStripButton7"
+        Me.ToolStripButton7.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton7.Text = "D"
+        Me.ToolStripButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'Label2
+        'ToolStripButton8
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label2.Location = New System.Drawing.Point(733, 77)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(141, 17)
-        Me.Label2.TabIndex = 18
-        Me.Label2.Text = "Show Details for Last"
+        Me.ToolStripButton8.AutoSize = False
+        Me.ToolStripButton8.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton8.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton8.Image = CType(resources.GetObject("ToolStripButton8.Image"), System.Drawing.Image)
+        Me.ToolStripButton8.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton8.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton8.Name = "ToolStripButton8"
+        Me.ToolStripButton8.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton8.Text = "E"
+        Me.ToolStripButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'Label3
+        'ToolStripButton9
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.Label3.Location = New System.Drawing.Point(912, 76)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(38, 17)
-        Me.Label3.TabIndex = 19
-        Me.Label3.Text = "days"
+        Me.ToolStripButton9.AutoSize = False
+        Me.ToolStripButton9.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton9.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton9.Image = CType(resources.GetObject("ToolStripButton9.Image"), System.Drawing.Image)
+        Me.ToolStripButton9.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton9.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton9.Name = "ToolStripButton9"
+        Me.ToolStripButton9.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton9.Text = "F"
+        Me.ToolStripButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'CheckBox2
+        'ToolStripButton10
         '
-        Me.CheckBox2.AutoSize = True
-        Me.CheckBox2.Location = New System.Drawing.Point(881, 231)
-        Me.CheckBox2.Name = "CheckBox2"
-        Me.CheckBox2.Size = New System.Drawing.Size(100, 21)
-        Me.CheckBox2.TabIndex = 20
-        Me.CheckBox2.Text = "CheckBox2"
-        Me.CheckBox2.UseVisualStyleBackColor = True
+        Me.ToolStripButton10.AutoSize = False
+        Me.ToolStripButton10.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton10.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton10.Image = CType(resources.GetObject("ToolStripButton10.Image"), System.Drawing.Image)
+        Me.ToolStripButton10.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton10.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton10.Name = "ToolStripButton10"
+        Me.ToolStripButton10.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton10.Text = "G"
+        Me.ToolStripButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         '
-        'NumericUpDown1
+        'ToolStripButton11
         '
-        Me.NumericUpDown1.BackColor = System.Drawing.SystemColors.ButtonFace
-        Me.NumericUpDown1.Increment = New Decimal(New Integer() {30, 0, 0, 0})
-        Me.NumericUpDown1.Location = New System.Drawing.Point(855, 73)
-        Me.NumericUpDown1.Minimum = New Decimal(New Integer() {30, 0, 0, 0})
-        Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.Size = New System.Drawing.Size(42, 22)
-        Me.NumericUpDown1.TabIndex = 21
-        Me.NumericUpDown1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.NumericUpDown1.Value = New Decimal(New Integer() {30, 0, 0, 0})
+        Me.ToolStripButton11.AutoSize = False
+        Me.ToolStripButton11.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton11.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton11.Image = CType(resources.GetObject("ToolStripButton11.Image"), System.Drawing.Image)
+        Me.ToolStripButton11.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton11.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton11.Name = "ToolStripButton11"
+        Me.ToolStripButton11.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton11.Text = "H"
+        Me.ToolStripButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        '
+        'ToolStripButton12
+        '
+        Me.ToolStripButton12.AutoSize = False
+        Me.ToolStripButton12.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripButton12.ForeColor = System.Drawing.Color.White
+        Me.ToolStripButton12.Image = CType(resources.GetObject("ToolStripButton12.Image"), System.Drawing.Image)
+        Me.ToolStripButton12.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None
+        Me.ToolStripButton12.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripButton12.Name = "ToolStripButton12"
+        Me.ToolStripButton12.Size = New System.Drawing.Size(70, 65)
+        Me.ToolStripButton12.Text = "I"
+        Me.ToolStripButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.ToolStripButton12.ToolTipText = "System Flow"
+        '
+        'ToolStrip1
+        '
+        Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.ToolStripLabel2, Me.ToolStripLabel3, Me.ToolStripLabel4, Me.ToolStripLabel5, Me.ToolStripLabel6, Me.ToolStripLabel7, Me.ToolStripLabel8})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 883)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(1393, 25)
+        Me.ToolStrip1.TabIndex = 25
+        Me.ToolStrip1.Text = "ToolStrip1"
+        '
+        'ToolStripLabel1
+        '
+        Me.ToolStripLabel1.Name = "ToolStripLabel1"
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(41, 22)
+        Me.ToolStripLabel1.Text = "User:"
+        '
+        'ToolStripLabel2
+        '
+        Me.ToolStripLabel2.Name = "ToolStripLabel2"
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(39, 22)
+        Me.ToolStripLabel2.Text = ".........."
+        '
+        'ToolStripLabel3
+        '
+        Me.ToolStripLabel3.Name = "ToolStripLabel3"
+        Me.ToolStripLabel3.Size = New System.Drawing.Size(76, 22)
+        Me.ToolStripLabel3.Text = "User Type:"
+        '
+        'ToolStripLabel4
+        '
+        Me.ToolStripLabel4.Name = "ToolStripLabel4"
+        Me.ToolStripLabel4.Size = New System.Drawing.Size(81, 22)
+        Me.ToolStripLabel4.Text = "........................"
+        '
+        'ToolStripLabel5
+        '
+        Me.ToolStripLabel5.Name = "ToolStripLabel5"
+        Me.ToolStripLabel5.Size = New System.Drawing.Size(54, 22)
+        Me.ToolStripLabel5.Text = "F. Year:"
+        '
+        'ToolStripLabel6
+        '
+        Me.ToolStripLabel6.Name = "ToolStripLabel6"
+        Me.ToolStripLabel6.Size = New System.Drawing.Size(63, 22)
+        Me.ToolStripLabel6.Text = ".................."
+        '
+        'ToolStripLabel7
+        '
+        Me.ToolStripLabel7.Name = "ToolStripLabel7"
+        Me.ToolStripLabel7.Size = New System.Drawing.Size(90, 22)
+        Me.ToolStripLabel7.Text = "Version Info:"
+        '
+        'ToolStripLabel8
+        '
+        Me.ToolStripLabel8.Name = "ToolStripLabel8"
+        Me.ToolStripLabel8.Size = New System.Drawing.Size(45, 22)
+        Me.ToolStripLabel8.Text = "............"
         '
         'frmMain
         '
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1393, 783)
-        Me.Controls.Add(Me.NumericUpDown1)
-        Me.Controls.Add(Me.CheckBox2)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.CheckBox1)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.ClientSize = New System.Drawing.Size(1393, 908)
+        Me.Controls.Add(Me.ToolStrip1)
+        Me.Controls.Add(Me.ToolStrip2)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -767,11 +877,10 @@ Partial Class frmMain
         Me.Text = "frmMain"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ToolStrip2.ResumeLayout(False)
+        Me.ToolStrip2.PerformLayout()
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -858,13 +967,25 @@ Partial Class frmMain
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents CheckBox1 As CheckBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label3 As Label
-    Friend WithEvents CheckBox2 As CheckBox
-    Friend WithEvents NumericUpDown1 As NumericUpDown
+    Friend WithEvents ToolStrip2 As System.Windows.Forms.ToolStrip
+    Friend WithEvents ToolStripButton2 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton5 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton6 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton7 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton8 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton9 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton10 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton11 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStripButton12 As System.Windows.Forms.ToolStripButton
+    Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
+    Friend WithEvents ToolStripLabel1 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel2 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel3 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel4 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel5 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel6 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents TakePictureAndSendToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SendToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ToolStripLabel7 As System.Windows.Forms.ToolStripLabel
+    Friend WithEvents ToolStripLabel8 As System.Windows.Forms.ToolStripLabel
 End Class
