@@ -1,9 +1,9 @@
 ﻿Public Class frmEditAll
     Private Sub EditAll_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim currentDate As DateTime = DateTime.Now
-        ToolStripStatusLabel2.Text = currentDate.ToString("dd/MM/yy")
-        dtSample.Format = DateTimePickerFormat.Custom
-        dtSample.CustomFormat = "dd/MM/yyyy"
+        'ToolStripStatusLabel2.Text = currentDate.ToString("dd/MM/yy")
+        'dtSample.Format = DateTimePickerFormat.Custom
+        'dtSample.CustomFormat = "dd/MM/yyyy"
     End Sub
 
     Private Sub Label26_Click(sender As Object, e As EventArgs) Handles Label26.Click
@@ -99,6 +99,14 @@
     End Sub
 
     Private Sub Label83_Click(sender As Object, e As EventArgs) Handles Label83.Click
+
+    End Sub
+
+    Private Sub TabPage4_Click(sender As Object, e As EventArgs) Handles TabPage4.Click
+
+    End Sub
+
+    Private Sub btnScan_Enter(sender As Object, e As EventArgs) Handles btnScan.Enter
 
     End Sub
 End Class
