@@ -515,7 +515,7 @@ Partial Class frmEditAll
         Me.Label11.Location = New System.Drawing.Point(1046, 78)
         Me.Label11.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(31, 17)
+        Me.Label11.Size = New System.Drawing.Size(30, 16)
         Me.Label11.TabIndex = 16
         Me.Label11.Text = "Sex"
         '
@@ -533,7 +533,7 @@ Partial Class frmEditAll
         Me.Label10.Location = New System.Drawing.Point(1044, 56)
         Me.Label10.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(33, 17)
+        Me.Label10.Size = New System.Drawing.Size(32, 16)
         Me.Label10.TabIndex = 14
         Me.Label10.Text = "Age"
         '
@@ -551,7 +551,7 @@ Partial Class frmEditAll
         Me.Label9.Location = New System.Drawing.Point(1041, 35)
         Me.Label9.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(42, 17)
+        Me.Label9.Size = New System.Drawing.Size(39, 16)
         Me.Label9.TabIndex = 12
         Me.Label9.Text = "D.o.b"
         '
@@ -615,7 +615,7 @@ Partial Class frmEditAll
         Me.Label12.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label12.Name = "Label12"
         Me.Label12.Padding = New System.Windows.Forms.Padding(32, 0, 553, 0)
-        Me.Label12.Size = New System.Drawing.Size(587, 19)
+        Me.Label12.Size = New System.Drawing.Size(587, 18)
         Me.Label12.TabIndex = 10
         '
         'btnSearch
@@ -648,7 +648,7 @@ Partial Class frmEditAll
         Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Padding = New System.Windows.Forms.Padding(0, 0, 172, 0)
-        Me.Label8.Size = New System.Drawing.Size(248, 19)
+        Me.Label8.Size = New System.Drawing.Size(246, 18)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "ForeName"
         Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -672,7 +672,7 @@ Partial Class frmEditAll
         Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Padding = New System.Windows.Forms.Padding(0, 0, 154, 0)
-        Me.Label7.Size = New System.Drawing.Size(223, 19)
+        Me.Label7.Size = New System.Drawing.Size(220, 18)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "SurName"
         Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
@@ -696,7 +696,7 @@ Partial Class frmEditAll
         Me.lblChart.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblChart.Name = "lblChart"
         Me.lblChart.Padding = New System.Windows.Forms.Padding(32, 0, 32, 0)
-        Me.lblChart.Size = New System.Drawing.Size(120, 19)
+        Me.lblChart.Size = New System.Drawing.Size(114, 18)
         Me.lblChart.TabIndex = 3
         Me.lblChart.Text = "Chart #"
         '
@@ -706,7 +706,7 @@ Partial Class frmEditAll
         Me.Label4.Location = New System.Drawing.Point(354, 2)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(85, 17)
+        Me.Label4.Size = New System.Drawing.Size(83, 16)
         Me.Label4.TabIndex = 1
         Me.Label4.Text = "SampleDate"
         '
@@ -787,7 +787,7 @@ Partial Class frmEditAll
         Me.Label3.Location = New System.Drawing.Point(5, 98)
         Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(39, 17)
+        Me.Label3.Size = New System.Drawing.Size(38, 16)
         Me.Label3.TabIndex = 6
         Me.Label3.Text = "MRU"
         '
@@ -806,7 +806,7 @@ Partial Class frmEditAll
         Me.Label2.Location = New System.Drawing.Point(4, 62)
         Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(102, 17)
+        Me.Label2.Size = New System.Drawing.Size(96, 16)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "Other Samples"
         '
@@ -846,7 +846,7 @@ Partial Class frmEditAll
         Me.Label1.Location = New System.Drawing.Point(46, 5)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(68, 17)
+        Me.Label1.Size = New System.Drawing.Size(67, 16)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "SampleID"
         '
@@ -1980,7 +1980,7 @@ Partial Class frmEditAll
         Me.Label69.Location = New System.Drawing.Point(949, 290)
         Me.Label69.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(113, 26)
+        Me.Label69.Size = New System.Drawing.Size(107, 24)
         Me.Label69.TabIndex = 62
         Me.Label69.Text = "Sapphire - A"
         '
@@ -2383,7 +2383,7 @@ Partial Class frmEditAll
         Me.Label65.ForeColor = System.Drawing.Color.Red
         Me.Label65.Location = New System.Drawing.Point(753, 14)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(32, 160)
+        Me.Label65.Size = New System.Drawing.Size(31, 160)
         Me.Label65.TabIndex = 3
         Me.Label65.Text = "F" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "L" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "A" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "G" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "S"
         '
@@ -4011,6 +4011,7 @@ Partial Class frmEditAll
         Me.Parameter.HeaderText = "Parameter"
         Me.Parameter.MinimumWidth = 6
         Me.Parameter.Name = "Parameter"
+        Me.Parameter.Width = 125
         '
         'ResultCoag
         '
@@ -4289,6 +4290,7 @@ Partial Class frmEditAll
         Me.DataGridView3.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.testnameExt, Me.resExt, Me.NrExt, Me.UnitsExt, Me.SendTo, Me.DateExt})
         Me.DataGridView3.Location = New System.Drawing.Point(11, 10)
         Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.RowHeadersWidth = 51
         Me.DataGridView3.RowTemplate.Height = 25
         Me.DataGridView3.Size = New System.Drawing.Size(914, 196)
         Me.DataGridView3.TabIndex = 0
@@ -4296,43 +4298,53 @@ Partial Class frmEditAll
         'testnameExt
         '
         Me.testnameExt.HeaderText = "Test Name"
+        Me.testnameExt.MinimumWidth = 6
         Me.testnameExt.Name = "testnameExt"
+        Me.testnameExt.Width = 125
         '
         'resExt
         '
         Me.resExt.HeaderText = "Result"
+        Me.resExt.MinimumWidth = 6
         Me.resExt.Name = "resExt"
         Me.resExt.Width = 150
         '
         'NrExt
         '
         Me.NrExt.HeaderText = "Normal Range"
+        Me.NrExt.MinimumWidth = 6
         Me.NrExt.Name = "NrExt"
+        Me.NrExt.Width = 125
         '
         'UnitsExt
         '
         Me.UnitsExt.HeaderText = "Units"
+        Me.UnitsExt.MinimumWidth = 6
         Me.UnitsExt.Name = "UnitsExt"
+        Me.UnitsExt.Width = 125
         '
         'SendTo
         '
         Me.SendTo.HeaderText = "Send To"
+        Me.SendTo.MinimumWidth = 6
         Me.SendTo.Name = "SendTo"
         Me.SendTo.Width = 150
         '
         'DateExt
         '
         Me.DateExt.HeaderText = "Date"
+        Me.DateExt.MinimumWidth = 6
         Me.DateExt.Name = "DateExt"
+        Me.DateExt.Width = 125
         '
         'StatusStrip1
         '
         Me.StatusStrip1.ImageScalingSize = New System.Drawing.Size(24, 24)
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4, Me.ToolStripStatusLabel5})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 605)
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 604)
         Me.StatusStrip1.Name = "StatusStrip1"
         Me.StatusStrip1.Padding = New System.Windows.Forms.Padding(1, 0, 10, 0)
-        Me.StatusStrip1.Size = New System.Drawing.Size(1167, 25)
+        Me.StatusStrip1.Size = New System.Drawing.Size(1167, 26)
         Me.StatusStrip1.TabIndex = 19
         Me.StatusStrip1.Text = "StatusStrip1"
         '

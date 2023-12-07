@@ -12,8 +12,8 @@ Public Class frmUser
     Private Sub LoadUsers()
         Try
             sqL = "SELECT Username FROM USERS ORDER BY Username"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader()
 
             Dim x As New ListViewItem
@@ -28,15 +28,15 @@ Public Class frmUser
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
     Private Sub BindToText()
         Try
             sqL = "SELECT *, CONCAT(Lastname, ', ', Firstname, ' ', MI) as TName FROM USERS s LEFT JOIN Teacher t ON s.TeacherNo = t.TeacherNo LEFT JOIN SECTION sec ON t.SectionNO = sec.SectionNo WHERE Username ='" & ListView1.FocusedItem.Text & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader()
 
             If dr.Read = True Then
@@ -60,7 +60,7 @@ Public Class frmUser
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
@@ -68,8 +68,8 @@ Public Class frmUser
         Dim isValid As Boolean = False
         Try
             sqL = "SELECT * FROM Users WHERE Username ='" & txtUsername.Text & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader()
 
             If dr.Read = True Then
@@ -84,7 +84,7 @@ Public Class frmUser
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
 
         Return isValid
@@ -94,8 +94,8 @@ Public Class frmUser
         Dim strPassword As String = Encrypt(txtPassword.Text)
         Try
             sqL = "INSERT INTO USERS(Username, Pwd, Role, TeacherNo) VALUES('" & txtUsername.Text & "', '" & strPassword & "', '" & cmbRole.Text & "', '" & txtTeacher.Tag & "')"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             Dim i As Integer
             i = cmd.ExecuteNonQuery
             If i > 0 Then
@@ -105,7 +105,7 @@ Public Class frmUser
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
@@ -113,8 +113,8 @@ Public Class frmUser
         Dim strPassword As String = Encrypt(txtPassword.Text)
         Try
             sqL = "UPDATE Users SET pwd = '" & strPassword & "', Role = '" & cmbRole.Text & "', TeacherNo = '" & txtTeacher.Tag & "' WHERE Username = '" & txtUsername.Text & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             Dim i As Integer
             i = cmd.ExecuteNonQuery
             If i > 0 Then
@@ -124,7 +124,7 @@ Public Class frmUser
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
@@ -301,8 +301,8 @@ Public Class frmUser
         If MsgBox("Are you sure you want to delete", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
             Try
                 sqL = "DELETE FROM Users WHERE Username = '" & ListView1.FocusedItem.Text & "'"
-                ConnDB()
-                cmd = New SqlCommand(sqL, conn)
+                conDB()
+                cmd = New SqlCommand(sqL, con)
                 Dim i As Integer = cmd.ExecuteNonQuery
 
                 If i > 0 Then
@@ -312,7 +312,7 @@ Public Class frmUser
                 MsgBox(ex.ToString)
             Finally
                 cmd.Dispose()
-                conn.Close()
+                con.Close()
             End Try
             LoadUsers()
             CLearFields()

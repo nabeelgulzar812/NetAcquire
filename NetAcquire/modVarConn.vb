@@ -1,7 +1,8 @@
 ﻿Imports System.Data.SqlClient
+Imports System.IO
 Imports System.Windows.Forms
 
-Module modVarConn
+Module modVarcon
     Public ServerMySQL As String
     Public PortMySQL As String
     Public UserNameMySQL As String
@@ -20,55 +21,45 @@ Module modVarConn
 
     Public formName As String
 
-    Public conn As New SqlConnection
+    Public con As New SqlConnection
+    Public ReadOnly cs As String = ReadCS()
 
-    Sub getData()
-        Dim AppName As String = Application.ProductName
+    Dim st As String
+    Public Function ReadCS() As String
+        Using sr As StreamReader = New StreamReader(Application.StartupPath & "\NetAcquire.dat")
+            st = sr.ReadLine()
+        End Using
+        Return st
+    End Function
 
-        Try
-            DBNameMySQL = GetSetting(AppName, "DBSection", "DB_Name", "temp")
-            ServerMySQL = GetSetting(AppName, "DBSection", "DB_IP", "temp")
-            PortMySQL = GetSetting(AppName, "DBSection", "DB_Port", "temp")
-            UserNameMySQL = GetSetting(AppName, "DBSection", "DB_User", "temp")
-            PwdMySQL = GetSetting(AppName, "DBSection", "DB_Password", "temp")
-        Catch ex As Exception
-            MsgBox("System registry was not established, you can set/save " & _
-            "these settings by pressing F1", MsgBoxStyle.Information)
-        End Try
 
-    End Sub
+    Public Sub conDB()
 
-    Public Sub ConnDB()
-
-        conn.Close()
+        con.Close()
 
         Try
-            conn.ConnectionString = "Server = '" & ServerMySQL & "';  " _
-                                         & "Port = '" & PortMySQL & "'; " _
-                                         & "Database = '" & DBNameMySQL & "'; " _
-                                         & "user id = '" & UserNameMySQL & "'; " _
-                                         & "password = '" & PwdMySQL & "'"
+            con = New SqlConnection(cs)
 
-            conn.Open()
+            con.Open()
 
 
         Catch ex As Exception
             Try
-                conn = New SqlConnection("datasource = localhost; port=3306; username=root; password=admin; database=ardatabase;")
-                conn.Open()
+                con = New SqlConnection(cs)
+                con.Open()
             Catch
                 MsgBox("Please configure database.", MsgBoxStyle.Information, "Database")
             End Try
 
-            ' MsgBox("The system failed to establish a connection", MsgBoxStyle.Information, "Database Settings")
+            ' MsgBox("The system failed to establish a conection", MsgBoxStyle.Information, "Database Settings")
         End Try
 
     End Sub
 
-    Public Sub DisconnMy()
+    Public Sub DisconMy()
 
-        conn.Close()
-        conn.Dispose()
+        con.Close()
+        con.Dispose()
 
     End Sub
 
@@ -81,7 +72,7 @@ Module modVarConn
         SaveSetting(AppName, "DBSection", "DB_User", UserNameMySQL)
         SaveSetting(AppName, "DBSection", "DB_Password", PwdMySQL)
 
-        MsgBox("Database connection settings are saved.", MsgBoxStyle.Information)
+        MsgBox("Database conection settings are saved.", MsgBoxStyle.Information)
     End Sub
 
 

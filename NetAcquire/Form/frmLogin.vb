@@ -7,8 +7,8 @@ Public Class frmLogin
     Private Sub Login()
         Try
             sqL = "SELECT * FROM USERS s LEFT JOIN Teacher t ON s.TeacherNo = t.TeacherNo LEFT JOIN SECTION sec ON t.SectionNO = sec.SectionNo WHERE Username = '" & txtUsername.Text & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader()
 
             If dr.Read = True Then
@@ -38,15 +38,15 @@ Public Class frmLogin
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
     Private Sub LoginSubjectTeacher()
         Try
             sqL = "SELECT * FROM USERS s LEFT JOIN Teacher t ON s.TeacherNo = t.TeacherNo LEFT JOIN SECTION sec ON t.SectionNO = sec.SectionNo WHERE Username = '" & txtUsername.Text & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader()
 
             If dr.Read = True Then
@@ -57,10 +57,10 @@ Public Class frmLogin
 
                 If Decrypt(dr("Pwd")) = txtPassword.Text Then
 
-                    frmComputeSubjectGrade.txtLogTeacher.Tag = dr("TeacherNo")
-                    frmComputeSubjectGrade.cmbSY.Text = dr("SY").ToString
-                    frmComputeSubjectGrade.txtLogTeacher.Text = dr("LastName") & ", " & dr("Firstname") & " " & dr("MI")
-                    frmComputeSubjectGrade.Show()
+                    'frmComputeSubjectGrade.txtLogTeacher.Tag = dr("TeacherNo")
+                    'frmComputeSubjectGrade.cmbSY.Text = dr("SY").ToString
+                    'frmComputeSubjectGrade.txtLogTeacher.Text = dr("LastName") & ", " & dr("Firstname") & " " & dr("MI")
+                    'frmComputeSubjectGrade.Show()
                     Me.Hide()
                     'Me.Close()
 
@@ -76,7 +76,7 @@ Public Class frmLogin
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Sub
 
@@ -136,7 +136,7 @@ Public Class frmLogin
 
     Private Sub frmLogin_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        getData()
+        'getData()
         txtPassword.Text = ""
         txtUsername.Text = ""
         txtUsername.Focus()

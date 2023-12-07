@@ -10,8 +10,8 @@ Module modFunction
     Public Function AddEditData(ByVal strSQL As String)
         Dim ret As Boolean = False
         Try
-            ConnDB()
-            cmd = New SqlCommand(strSQL, conn)
+            conDB()
+            cmd = New SqlCommand(strSQL, con)
             Dim i As Integer = cmd.ExecuteNonQuery()
             If i > 0 Then
                 ret = True
@@ -21,7 +21,7 @@ Module modFunction
             MsgBox(ex.ToString)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
         Return ret
     End Function
@@ -29,8 +29,8 @@ Module modFunction
     Public Function GetNumberData(ByVal strSQL As String)
         GetNumberData = ""
         Try
-            ConnDB()
-            cmd = New SqlCommand(strSQL, conn)
+            conDB()
+            cmd = New SqlCommand(strSQL, con)
             dr = cmd.ExecuteReader
             If dr.Read = True Then
                 Dim x As Integer = dr(0).ToString
@@ -40,15 +40,15 @@ Module modFunction
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Function
 
     Public Function GetStringData(ByVal strSQL As String)
         GetStringData = ""
         Try
-            ConnDB()
-            cmd = New SqlCommand(strSQL, conn)
+            conDB()
+            cmd = New SqlCommand(strSQL, con)
             dr = cmd.ExecuteReader
             If dr.Read = True Then
                 Return dr(0).ToString()
@@ -57,15 +57,15 @@ Module modFunction
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Function
 
     Public Function ValidateTableData(ByVal strSQL As String)
         ValidateTableData = False
         Try
-            ConnDB()
-            cmd = New SqlCommand(strSQL, conn)
+            conDB()
+            cmd = New SqlCommand(strSQL, con)
             dr = cmd.ExecuteReader
             If dr.Read = True Then
                 Return True
@@ -74,15 +74,15 @@ Module modFunction
             MsgBox(ex.Message)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
     End Function
 
     Public Function ValidateTableData2(ByVal strSQL As String)
         ValidateTableData2 = False
         Try
-            ConnDB()
-            cmd = New SqlCommand(strSQL, conn)
+            conDB()
+            cmd = New SqlCommand(strSQL, con)
             dr = cmd.ExecuteReader
             If dr.Read = True Then
                 Return True
@@ -164,8 +164,8 @@ Module modFunction
 
         Try
             sqL = "Select Equivalent FROM Transmutation WHERE Score = '" & score & "' AND Max = '" & max & "'"
-            ConnDB()
-            cmd = New SqlCommand(sqL, conn)
+            conDB()
+            cmd = New SqlCommand(sqL, con)
             dr = cmd.ExecuteReader
 
             If dr.Read = True Then
@@ -175,7 +175,7 @@ Module modFunction
             MsgBox(ex.ToString)
         Finally
             cmd.Dispose()
-            conn.Close()
+            con.Close()
         End Try
 
         Return ret

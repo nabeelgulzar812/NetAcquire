@@ -112,12 +112,6 @@
     <Compile Include="Form\frmActivityLogViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\frmAddEditStudent.designer.vb">
-      <DependentUpon>frmAddEditStudent.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\frmAddEditStudent.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form\frmAddResult.Designer.vb">
       <DependentUpon>frmAddResult.vb</DependentUpon>
     </Compile>
@@ -164,12 +158,6 @@
       <DependentUpon>frmCollatedReport.vb</DependentUpon>
     </Compile>
     <Compile Include="Form\frmCollatedReport.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form\frmComputeSubjectGrade.designer.vb">
-      <DependentUpon>frmComputeSubjectGrade.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\frmComputeSubjectGrade.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form\frmCreatClearance.Designer.vb">
@@ -323,12 +311,6 @@
     <Compile Include="Form\frmUPro.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\frmUser.designer.vb">
-      <DependentUpon>frmUser.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Form\frmUser.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="modEncriptDecript.vb" />
     <Compile Include="modFunction.vb" />
     <Compile Include="modVarConn.vb" />
@@ -336,6 +318,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -370,9 +353,6 @@
     <EmbeddedResource Include="Form\frmActivityLogViewer.resx">
       <DependentUpon>frmActivityLogViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\frmAddEditStudent.resx">
-      <DependentUpon>frmAddEditStudent.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form\frmAddResult.resx">
       <DependentUpon>frmAddResult.vb</DependentUpon>
     </EmbeddedResource>
@@ -396,9 +376,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmCollatedReport.resx">
       <DependentUpon>frmCollatedReport.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\frmComputeSubjectGrade.resx">
-      <DependentUpon>frmComputeSubjectGrade.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmCreatClearance.resx">
       <DependentUpon>frmCreatClearance.vb</DependentUpon>
@@ -471,9 +448,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form\frmUPro.resx">
       <DependentUpon>frmUPro.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form\frmUser.resx">
-      <DependentUpon>frmUser.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
