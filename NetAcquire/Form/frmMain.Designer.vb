@@ -136,7 +136,7 @@ Partial Class frmMain
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.EditToolStripMenuItem, Me.SearchToolStripMenuItem, Me.ListsToolStripMenuItem, Me.ReportsToolStripMenuItem, Me.QCToolStripMenuItem, Me.PrintToolStripMenuItem, Me.StockToolStripMenuItem, Me.StastisticsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1393, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1393, 30)
         Me.MenuStrip1.TabIndex = 0
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -144,491 +144,491 @@ Partial Class frmMain
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GoogleToolStripMenuItem, Me.LogOnToolStripMenuItem, Me.ViewWardEnquiriesToolStripMenuItem, Me.RestLastUsedToolStripMenuItem, Me.ViewArchivesToolStripMenuItem, Me.MergeCliniciansWardsToolStripMenuItem, Me.ChangePasswordToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(44, 24)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.FileToolStripMenuItem.Text = "&File"
         '
         'GoogleToolStripMenuItem
         '
         Me.GoogleToolStripMenuItem.Name = "GoogleToolStripMenuItem"
-        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.GoogleToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.GoogleToolStripMenuItem.Text = "Log On"
         '
         'LogOnToolStripMenuItem
         '
         Me.LogOnToolStripMenuItem.Name = "LogOnToolStripMenuItem"
-        Me.LogOnToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.LogOnToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.LogOnToolStripMenuItem.Text = "Log Off"
         '
         'ViewWardEnquiriesToolStripMenuItem
         '
         Me.ViewWardEnquiriesToolStripMenuItem.Name = "ViewWardEnquiriesToolStripMenuItem"
-        Me.ViewWardEnquiriesToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.ViewWardEnquiriesToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.ViewWardEnquiriesToolStripMenuItem.Text = "View Ward Enquiries"
         '
         'RestLastUsedToolStripMenuItem
         '
         Me.RestLastUsedToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GeneralLabToolStripMenuItem, Me.MicrobiologyToolStripMenuItem, Me.RecordMaintenanceToolStripMenuItem})
         Me.RestLastUsedToolStripMenuItem.Name = "RestLastUsedToolStripMenuItem"
-        Me.RestLastUsedToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.RestLastUsedToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.RestLastUsedToolStripMenuItem.Text = "Rest 'Last Used'"
         '
         'GeneralLabToolStripMenuItem
         '
         Me.GeneralLabToolStripMenuItem.Name = "GeneralLabToolStripMenuItem"
-        Me.GeneralLabToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.GeneralLabToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.GeneralLabToolStripMenuItem.Text = "General Lab"
         '
         'MicrobiologyToolStripMenuItem
         '
         Me.MicrobiologyToolStripMenuItem.Name = "MicrobiologyToolStripMenuItem"
-        Me.MicrobiologyToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.MicrobiologyToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.MicrobiologyToolStripMenuItem.Text = "Microbiology"
         '
         'RecordMaintenanceToolStripMenuItem
         '
         Me.RecordMaintenanceToolStripMenuItem.Name = "RecordMaintenanceToolStripMenuItem"
-        Me.RecordMaintenanceToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.RecordMaintenanceToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.RecordMaintenanceToolStripMenuItem.Text = "Record maintenance"
         '
         'ViewArchivesToolStripMenuItem
         '
         Me.ViewArchivesToolStripMenuItem.Name = "ViewArchivesToolStripMenuItem"
-        Me.ViewArchivesToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.ViewArchivesToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.ViewArchivesToolStripMenuItem.Text = "View Archives"
         '
         'MergeCliniciansWardsToolStripMenuItem
         '
         Me.MergeCliniciansWardsToolStripMenuItem.Name = "MergeCliniciansWardsToolStripMenuItem"
-        Me.MergeCliniciansWardsToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.MergeCliniciansWardsToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.MergeCliniciansWardsToolStripMenuItem.Text = "Merge Clinicians/Wards"
         '
         'ChangePasswordToolStripMenuItem
         '
         Me.ChangePasswordToolStripMenuItem.Name = "ChangePasswordToolStripMenuItem"
-        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.ChangePasswordToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.ChangePasswordToolStripMenuItem.Text = "Change Password"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(240, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
         '
         Me.EditToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewEditResultsToolStripMenuItem, Me.OrderToolStripMenuItem, Me.BatchesToolStripMenuItem})
         Me.EditToolStripMenuItem.Name = "EditToolStripMenuItem"
-        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(47, 24)
+        Me.EditToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
         Me.EditToolStripMenuItem.Text = "&Edit"
         '
         'ViewEditResultsToolStripMenuItem
         '
         Me.ViewEditResultsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GeneralToolStripMenuItem, Me.MicrobiologyToolStripMenuItem1, Me.SemenAnalysisToolStripMenuItem})
         Me.ViewEditResultsToolStripMenuItem.Name = "ViewEditResultsToolStripMenuItem"
-        Me.ViewEditResultsToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
+        Me.ViewEditResultsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ViewEditResultsToolStripMenuItem.Text = "View/Edit Results"
         '
         'GeneralToolStripMenuItem
         '
         Me.GeneralToolStripMenuItem.Name = "GeneralToolStripMenuItem"
-        Me.GeneralToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.GeneralToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.GeneralToolStripMenuItem.Text = "General"
         '
         'MicrobiologyToolStripMenuItem1
         '
         Me.MicrobiologyToolStripMenuItem1.Name = "MicrobiologyToolStripMenuItem1"
-        Me.MicrobiologyToolStripMenuItem1.Size = New System.Drawing.Size(186, 26)
+        Me.MicrobiologyToolStripMenuItem1.Size = New System.Drawing.Size(194, 26)
         Me.MicrobiologyToolStripMenuItem1.Text = "Microbiology"
         '
         'SemenAnalysisToolStripMenuItem
         '
         Me.SemenAnalysisToolStripMenuItem.Name = "SemenAnalysisToolStripMenuItem"
-        Me.SemenAnalysisToolStripMenuItem.Size = New System.Drawing.Size(186, 26)
+        Me.SemenAnalysisToolStripMenuItem.Size = New System.Drawing.Size(194, 26)
         Me.SemenAnalysisToolStripMenuItem.Text = "Semen Analysis"
         '
         'OrderToolStripMenuItem
         '
         Me.OrderToolStripMenuItem.Name = "OrderToolStripMenuItem"
-        Me.OrderToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
+        Me.OrderToolStripMenuItem.Size = New System.Drawing.Size(206, 26)
         Me.OrderToolStripMenuItem.Text = "Order"
         '
         'BatchesToolStripMenuItem
         '
         Me.BatchesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HaeToolStripMenuItem, Me.MicrobiologyToolStripMenuItem2, Me.ExternalsToolStripMenuItem})
         Me.BatchesToolStripMenuItem.Name = "BatchesToolStripMenuItem"
-        Me.BatchesToolStripMenuItem.Size = New System.Drawing.Size(198, 26)
+        Me.BatchesToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.BatchesToolStripMenuItem.Text = "Batches"
         '
         'HaeToolStripMenuItem
         '
         Me.HaeToolStripMenuItem.Name = "HaeToolStripMenuItem"
-        Me.HaeToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.HaeToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.HaeToolStripMenuItem.Text = "Haematology"
         '
         'MicrobiologyToolStripMenuItem2
         '
         Me.MicrobiologyToolStripMenuItem2.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OccultBloodToolStripMenuItem})
         Me.MicrobiologyToolStripMenuItem2.Name = "MicrobiologyToolStripMenuItem2"
-        Me.MicrobiologyToolStripMenuItem2.Size = New System.Drawing.Size(175, 26)
+        Me.MicrobiologyToolStripMenuItem2.Size = New System.Drawing.Size(224, 26)
         Me.MicrobiologyToolStripMenuItem2.Text = "Microbiology"
         '
         'OccultBloodToolStripMenuItem
         '
         Me.OccultBloodToolStripMenuItem.Name = "OccultBloodToolStripMenuItem"
-        Me.OccultBloodToolStripMenuItem.Size = New System.Drawing.Size(170, 26)
+        Me.OccultBloodToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.OccultBloodToolStripMenuItem.Text = "Occult Blood"
         '
         'ExternalsToolStripMenuItem
         '
         Me.ExternalsToolStripMenuItem.Name = "ExternalsToolStripMenuItem"
-        Me.ExternalsToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.ExternalsToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.ExternalsToolStripMenuItem.Text = "Externals"
         '
         'SearchToolStripMenuItem
         '
         Me.SearchToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NameToolStripMenuItem, Me.ChartToolStripMenuItem, Me.DateOfBirthToolStripMenuItem, Me.NameDateOfBirthToolStripMenuItem})
         Me.SearchToolStripMenuItem.Name = "SearchToolStripMenuItem"
-        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(65, 24)
+        Me.SearchToolStripMenuItem.Size = New System.Drawing.Size(67, 24)
         Me.SearchToolStripMenuItem.Text = "&Search"
         '
         'NameToolStripMenuItem
         '
         Me.NameToolStripMenuItem.Name = "NameToolStripMenuItem"
-        Me.NameToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.NameToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.NameToolStripMenuItem.Text = "Name"
         '
         'ChartToolStripMenuItem
         '
         Me.ChartToolStripMenuItem.Name = "ChartToolStripMenuItem"
-        Me.ChartToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.ChartToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.ChartToolStripMenuItem.Text = "Chart"
         '
         'DateOfBirthToolStripMenuItem
         '
         Me.DateOfBirthToolStripMenuItem.Name = "DateOfBirthToolStripMenuItem"
-        Me.DateOfBirthToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.DateOfBirthToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.DateOfBirthToolStripMenuItem.Text = "Date of Birth"
         '
         'NameDateOfBirthToolStripMenuItem
         '
         Me.NameDateOfBirthToolStripMenuItem.Name = "NameDateOfBirthToolStripMenuItem"
-        Me.NameDateOfBirthToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.NameDateOfBirthToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.NameDateOfBirthToolStripMenuItem.Text = "Name  &&  Date of Birth"
         '
         'ListsToolStripMenuItem
         '
         Me.ListsToolStripMenuItem.Name = "ListsToolStripMenuItem"
-        Me.ListsToolStripMenuItem.Size = New System.Drawing.Size(49, 24)
+        Me.ListsToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
         Me.ListsToolStripMenuItem.Text = "&Lists"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ActivityLogToolStripMenuItem, Me.CollatedReportToolStripMenuItem, Me.HoursUrineToolStripMenuItem, Me.AbnormalsToolStripMenuItem, Me.MicrobiologyToolStripMenuItem3, Me.CreatinineClearanceToolStripMenuItem, Me.UrinaryProtienToolStripMenuItem, Me.WorklistToolStripMenuItem, Me.StatisticsToolStripMenuItem, Me.TestCountToolStripMenuItem, Me.PhoneLogToolStripMenuItem, Me.FaxLogToolStripMenuItem, Me.ExternalWorklistToolStripMenuItem})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(72, 24)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(74, 26)
         Me.ReportsToolStripMenuItem.Text = "&Reports"
         '
         'ActivityLogToolStripMenuItem
         '
         Me.ActivityLogToolStripMenuItem.Name = "ActivityLogToolStripMenuItem"
-        Me.ActivityLogToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.ActivityLogToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.ActivityLogToolStripMenuItem.Text = "Activity Log"
         '
         'CollatedReportToolStripMenuItem
         '
         Me.CollatedReportToolStripMenuItem.Name = "CollatedReportToolStripMenuItem"
-        Me.CollatedReportToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.CollatedReportToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.CollatedReportToolStripMenuItem.Text = "Collated Report"
         '
         'HoursUrineToolStripMenuItem
         '
         Me.HoursUrineToolStripMenuItem.Name = "HoursUrineToolStripMenuItem"
-        Me.HoursUrineToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.HoursUrineToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.HoursUrineToolStripMenuItem.Text = "24 Hours Urine"
         '
         'AbnormalsToolStripMenuItem
         '
         Me.AbnormalsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BiochemistryToolStripMenuItem, Me.HaematologyToolStripMenuItem, Me.CoagulationToolStripMenuItem, Me.ImmunologyToolStripMenuItem})
         Me.AbnormalsToolStripMenuItem.Name = "AbnormalsToolStripMenuItem"
-        Me.AbnormalsToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.AbnormalsToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.AbnormalsToolStripMenuItem.Text = "Abnormals"
         '
         'BiochemistryToolStripMenuItem
         '
         Me.BiochemistryToolStripMenuItem.Name = "BiochemistryToolStripMenuItem"
-        Me.BiochemistryToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.BiochemistryToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.BiochemistryToolStripMenuItem.Text = "Biochemistry"
         '
         'HaematologyToolStripMenuItem
         '
         Me.HaematologyToolStripMenuItem.Name = "HaematologyToolStripMenuItem"
-        Me.HaematologyToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.HaematologyToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.HaematologyToolStripMenuItem.Text = "Haematology"
         '
         'CoagulationToolStripMenuItem
         '
         Me.CoagulationToolStripMenuItem.Name = "CoagulationToolStripMenuItem"
-        Me.CoagulationToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.CoagulationToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.CoagulationToolStripMenuItem.Text = "Coagulation"
         '
         'ImmunologyToolStripMenuItem
         '
         Me.ImmunologyToolStripMenuItem.Name = "ImmunologyToolStripMenuItem"
-        Me.ImmunologyToolStripMenuItem.Size = New System.Drawing.Size(175, 26)
+        Me.ImmunologyToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
         Me.ImmunologyToolStripMenuItem.Text = "Immunology"
         '
         'MicrobiologyToolStripMenuItem3
         '
         Me.MicrobiologyToolStripMenuItem3.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OutstandingToolStripMenuItem, Me.UsageToolStripMenuItem, Me.UsageByDateToolStripMenuItem, Me.ListDemographicDataToolStripMenuItem, Me.UnusedSampleIDsToolStripMenuItem})
         Me.MicrobiologyToolStripMenuItem3.Name = "MicrobiologyToolStripMenuItem3"
-        Me.MicrobiologyToolStripMenuItem3.Size = New System.Drawing.Size(220, 26)
+        Me.MicrobiologyToolStripMenuItem3.Size = New System.Drawing.Size(228, 26)
         Me.MicrobiologyToolStripMenuItem3.Text = "Microbiology"
         '
         'OutstandingToolStripMenuItem
         '
         Me.OutstandingToolStripMenuItem.Name = "OutstandingToolStripMenuItem"
-        Me.OutstandingToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.OutstandingToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.OutstandingToolStripMenuItem.Text = "Outstanding"
         '
         'UsageToolStripMenuItem
         '
         Me.UsageToolStripMenuItem.Name = "UsageToolStripMenuItem"
-        Me.UsageToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.UsageToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.UsageToolStripMenuItem.Text = "Usage"
         '
         'UsageByDateToolStripMenuItem
         '
         Me.UsageByDateToolStripMenuItem.Name = "UsageByDateToolStripMenuItem"
-        Me.UsageByDateToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.UsageByDateToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.UsageByDateToolStripMenuItem.Text = "Usage by Date"
         '
         'ListDemographicDataToolStripMenuItem
         '
         Me.ListDemographicDataToolStripMenuItem.Name = "ListDemographicDataToolStripMenuItem"
-        Me.ListDemographicDataToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.ListDemographicDataToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.ListDemographicDataToolStripMenuItem.Text = "List Demographic Data"
         '
         'UnusedSampleIDsToolStripMenuItem
         '
         Me.UnusedSampleIDsToolStripMenuItem.Name = "UnusedSampleIDsToolStripMenuItem"
-        Me.UnusedSampleIDsToolStripMenuItem.Size = New System.Drawing.Size(237, 26)
+        Me.UnusedSampleIDsToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
         Me.UnusedSampleIDsToolStripMenuItem.Text = "Unused Sample ID's"
         '
         'CreatinineClearanceToolStripMenuItem
         '
         Me.CreatinineClearanceToolStripMenuItem.Name = "CreatinineClearanceToolStripMenuItem"
-        Me.CreatinineClearanceToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.CreatinineClearanceToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.CreatinineClearanceToolStripMenuItem.Text = "Creatinine Clearance"
         '
         'UrinaryProtienToolStripMenuItem
         '
         Me.UrinaryProtienToolStripMenuItem.Name = "UrinaryProtienToolStripMenuItem"
-        Me.UrinaryProtienToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.UrinaryProtienToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.UrinaryProtienToolStripMenuItem.Text = "Urinary Protien"
         '
         'WorklistToolStripMenuItem
         '
         Me.WorklistToolStripMenuItem.Name = "WorklistToolStripMenuItem"
-        Me.WorklistToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.WorklistToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.WorklistToolStripMenuItem.Text = "Worklist"
         '
         'StatisticsToolStripMenuItem
         '
         Me.StatisticsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TotalForHaematologyToolStripMenuItem, Me.TotalForHaematologyToolStripMenuItem1, Me.TotalForHaematologyToolStripMenuItem2, Me.TotalForHaematologyToolStripMenuItem3, Me.TotalsForExternalsToolStripMenuItem})
         Me.StatisticsToolStripMenuItem.Name = "StatisticsToolStripMenuItem"
-        Me.StatisticsToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.StatisticsToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.StatisticsToolStripMenuItem.Text = "Statistics"
         '
         'TotalForHaematologyToolStripMenuItem
         '
         Me.TotalForHaematologyToolStripMenuItem.Name = "TotalForHaematologyToolStripMenuItem"
-        Me.TotalForHaematologyToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.TotalForHaematologyToolStripMenuItem.Size = New System.Drawing.Size(253, 26)
         Me.TotalForHaematologyToolStripMenuItem.Text = "Totals  for Haematology"
         '
         'TotalForHaematologyToolStripMenuItem1
         '
         Me.TotalForHaematologyToolStripMenuItem1.Name = "TotalForHaematologyToolStripMenuItem1"
-        Me.TotalForHaematologyToolStripMenuItem1.Size = New System.Drawing.Size(245, 26)
+        Me.TotalForHaematologyToolStripMenuItem1.Size = New System.Drawing.Size(253, 26)
         Me.TotalForHaematologyToolStripMenuItem1.Text = "Totals  for Biochemistry"
         '
         'TotalForHaematologyToolStripMenuItem2
         '
         Me.TotalForHaematologyToolStripMenuItem2.Name = "TotalForHaematologyToolStripMenuItem2"
-        Me.TotalForHaematologyToolStripMenuItem2.Size = New System.Drawing.Size(245, 26)
+        Me.TotalForHaematologyToolStripMenuItem2.Size = New System.Drawing.Size(253, 26)
         Me.TotalForHaematologyToolStripMenuItem2.Text = "Totals  for Coagulation"
         '
         'TotalForHaematologyToolStripMenuItem3
         '
         Me.TotalForHaematologyToolStripMenuItem3.Name = "TotalForHaematologyToolStripMenuItem3"
-        Me.TotalForHaematologyToolStripMenuItem3.Size = New System.Drawing.Size(245, 26)
+        Me.TotalForHaematologyToolStripMenuItem3.Size = New System.Drawing.Size(253, 26)
         Me.TotalForHaematologyToolStripMenuItem3.Text = "Totals  for Haematology"
         '
         'TotalsForExternalsToolStripMenuItem
         '
         Me.TotalsForExternalsToolStripMenuItem.Name = "TotalsForExternalsToolStripMenuItem"
-        Me.TotalsForExternalsToolStripMenuItem.Size = New System.Drawing.Size(245, 26)
+        Me.TotalsForExternalsToolStripMenuItem.Size = New System.Drawing.Size(253, 26)
         Me.TotalsForExternalsToolStripMenuItem.Text = "Totals for Externals"
         '
         'TestCountToolStripMenuItem
         '
         Me.TestCountToolStripMenuItem.Name = "TestCountToolStripMenuItem"
-        Me.TestCountToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.TestCountToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.TestCountToolStripMenuItem.Text = "Test Count"
         '
         'PhoneLogToolStripMenuItem
         '
         Me.PhoneLogToolStripMenuItem.Name = "PhoneLogToolStripMenuItem"
-        Me.PhoneLogToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.PhoneLogToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.PhoneLogToolStripMenuItem.Text = "Phone Log"
         '
         'FaxLogToolStripMenuItem
         '
         Me.FaxLogToolStripMenuItem.Name = "FaxLogToolStripMenuItem"
-        Me.FaxLogToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.FaxLogToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.FaxLogToolStripMenuItem.Text = "Fax Log"
         '
         'ExternalWorklistToolStripMenuItem
         '
         Me.ExternalWorklistToolStripMenuItem.Name = "ExternalWorklistToolStripMenuItem"
-        Me.ExternalWorklistToolStripMenuItem.Size = New System.Drawing.Size(220, 26)
+        Me.ExternalWorklistToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
         Me.ExternalWorklistToolStripMenuItem.Text = "External Worklist"
         '
         'QCToolStripMenuItem
         '
         Me.QCToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BiochemistryToolStripMenuItem1, Me.HaematologyToolStripMenuItem1, Me.RunningMeansToolStripMenuItem, Me.ReagentLotNumbersToolStripMenuItem})
         Me.QCToolStripMenuItem.Name = "QCToolStripMenuItem"
-        Me.QCToolStripMenuItem.Size = New System.Drawing.Size(44, 24)
+        Me.QCToolStripMenuItem.Size = New System.Drawing.Size(46, 24)
         Me.QCToolStripMenuItem.Text = "&Q.C"
         '
         'BiochemistryToolStripMenuItem1
         '
         Me.BiochemistryToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewTodayToolStripMenuItem, Me.ViewHistoricToolStripMenuItem})
         Me.BiochemistryToolStripMenuItem1.Name = "BiochemistryToolStripMenuItem1"
-        Me.BiochemistryToolStripMenuItem1.Size = New System.Drawing.Size(228, 26)
+        Me.BiochemistryToolStripMenuItem1.Size = New System.Drawing.Size(236, 26)
         Me.BiochemistryToolStripMenuItem1.Text = "Biochemistry"
         '
         'ViewTodayToolStripMenuItem
         '
         Me.ViewTodayToolStripMenuItem.Name = "ViewTodayToolStripMenuItem"
-        Me.ViewTodayToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
+        Me.ViewTodayToolStripMenuItem.Size = New System.Drawing.Size(191, 26)
         Me.ViewTodayToolStripMenuItem.Text = "View Today"
         '
         'ViewHistoricToolStripMenuItem
         '
         Me.ViewHistoricToolStripMenuItem.Name = "ViewHistoricToolStripMenuItem"
-        Me.ViewHistoricToolStripMenuItem.Size = New System.Drawing.Size(183, 26)
+        Me.ViewHistoricToolStripMenuItem.Size = New System.Drawing.Size(191, 26)
         Me.ViewHistoricToolStripMenuItem.Text = "View Historical"
         '
         'HaematologyToolStripMenuItem1
         '
         Me.HaematologyToolStripMenuItem1.Name = "HaematologyToolStripMenuItem1"
-        Me.HaematologyToolStripMenuItem1.Size = New System.Drawing.Size(228, 26)
+        Me.HaematologyToolStripMenuItem1.Size = New System.Drawing.Size(236, 26)
         Me.HaematologyToolStripMenuItem1.Text = "Haematology"
         '
         'RunningMeansToolStripMenuItem
         '
         Me.RunningMeansToolStripMenuItem.Name = "RunningMeansToolStripMenuItem"
-        Me.RunningMeansToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
+        Me.RunningMeansToolStripMenuItem.Size = New System.Drawing.Size(236, 26)
         Me.RunningMeansToolStripMenuItem.Text = "Running Means"
         '
         'ReagentLotNumbersToolStripMenuItem
         '
         Me.ReagentLotNumbersToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MonospotToolStripMenuItem, Me.MalariaToolStripMenuItem, Me.SickledexToolStripMenuItem})
         Me.ReagentLotNumbersToolStripMenuItem.Name = "ReagentLotNumbersToolStripMenuItem"
-        Me.ReagentLotNumbersToolStripMenuItem.Size = New System.Drawing.Size(228, 26)
+        Me.ReagentLotNumbersToolStripMenuItem.Size = New System.Drawing.Size(236, 26)
         Me.ReagentLotNumbersToolStripMenuItem.Text = "Reagent Lot Numbers"
         '
         'MonospotToolStripMenuItem
         '
         Me.MonospotToolStripMenuItem.Name = "MonospotToolStripMenuItem"
-        Me.MonospotToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
+        Me.MonospotToolStripMenuItem.Size = New System.Drawing.Size(160, 26)
         Me.MonospotToolStripMenuItem.Text = "Monospot"
         '
         'MalariaToolStripMenuItem
         '
         Me.MalariaToolStripMenuItem.Name = "MalariaToolStripMenuItem"
-        Me.MalariaToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
+        Me.MalariaToolStripMenuItem.Size = New System.Drawing.Size(160, 26)
         Me.MalariaToolStripMenuItem.Text = "Malaria"
         '
         'SickledexToolStripMenuItem
         '
         Me.SickledexToolStripMenuItem.Name = "SickledexToolStripMenuItem"
-        Me.SickledexToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
+        Me.SickledexToolStripMenuItem.Size = New System.Drawing.Size(160, 26)
         Me.SickledexToolStripMenuItem.Text = "Sickledex"
         '
         'PrintToolStripMenuItem
         '
         Me.PrintToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BatchToolStripMenuItem, Me.GlucoseToolStripMenuItem})
         Me.PrintToolStripMenuItem.Name = "PrintToolStripMenuItem"
-        Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(51, 24)
+        Me.PrintToolStripMenuItem.Size = New System.Drawing.Size(53, 24)
         Me.PrintToolStripMenuItem.Text = "&Print"
         '
         'BatchToolStripMenuItem
         '
         Me.BatchToolStripMenuItem.Name = "BatchToolStripMenuItem"
-        Me.BatchToolStripMenuItem.Size = New System.Drawing.Size(136, 26)
+        Me.BatchToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.BatchToolStripMenuItem.Text = "Batch"
         '
         'GlucoseToolStripMenuItem
         '
         Me.GlucoseToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ByDateToolStripMenuItem, Me.ByNameToolStripMenuItem})
         Me.GlucoseToolStripMenuItem.Name = "GlucoseToolStripMenuItem"
-        Me.GlucoseToolStripMenuItem.Size = New System.Drawing.Size(136, 26)
+        Me.GlucoseToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
         Me.GlucoseToolStripMenuItem.Text = "Glucose"
         '
         'ByDateToolStripMenuItem
         '
         Me.ByDateToolStripMenuItem.Name = "ByDateToolStripMenuItem"
-        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
+        Me.ByDateToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
         Me.ByDateToolStripMenuItem.Text = "By Date"
         '
         'ByNameToolStripMenuItem
         '
         Me.ByNameToolStripMenuItem.Name = "ByNameToolStripMenuItem"
-        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(144, 26)
+        Me.ByNameToolStripMenuItem.Size = New System.Drawing.Size(152, 26)
         Me.ByNameToolStripMenuItem.Text = "By Name"
         '
         'StockToolStripMenuItem
         '
         Me.StockToolStripMenuItem.Name = "StockToolStripMenuItem"
-        Me.StockToolStripMenuItem.Size = New System.Drawing.Size(57, 24)
+        Me.StockToolStripMenuItem.Size = New System.Drawing.Size(59, 24)
         Me.StockToolStripMenuItem.Text = "&Stock"
         '
         'StastisticsToolStripMenuItem
         '
         Me.StastisticsToolStripMenuItem.Name = "StastisticsToolStripMenuItem"
-        Me.StastisticsToolStripMenuItem.Size = New System.Drawing.Size(85, 24)
+        Me.StastisticsToolStripMenuItem.Size = New System.Drawing.Size(87, 24)
         Me.StastisticsToolStripMenuItem.Text = "&Stastistics"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TechnicalAssistanceToolStripMenuItem, Me.AboutToolStripMenuItem, Me.TakePictureAndSendToolStripMenuItem, Me.SendToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(53, 24)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(55, 24)
         Me.HelpToolStripMenuItem.Text = "&Help"
         '
         'TechnicalAssistanceToolStripMenuItem
         '
         Me.TechnicalAssistanceToolStripMenuItem.Name = "TechnicalAssistanceToolStripMenuItem"
-        Me.TechnicalAssistanceToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.TechnicalAssistanceToolStripMenuItem.Size = New System.Drawing.Size(225, 26)
         Me.TechnicalAssistanceToolStripMenuItem.Text = "Technical Assistance"
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(225, 26)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'TakePictureAndSendToolStripMenuItem
         '
         Me.TakePictureAndSendToolStripMenuItem.Name = "TakePictureAndSendToolStripMenuItem"
-        Me.TakePictureAndSendToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.TakePictureAndSendToolStripMenuItem.Size = New System.Drawing.Size(225, 26)
         Me.TakePictureAndSendToolStripMenuItem.Text = "Take Picture"
         '
         'SendToolStripMenuItem
         '
         Me.SendToolStripMenuItem.Name = "SendToolStripMenuItem"
-        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(217, 26)
+        Me.SendToolStripMenuItem.Size = New System.Drawing.Size(225, 26)
         Me.SendToolStripMenuItem.Text = "Send Email"
         '
         'Button1
@@ -662,7 +662,7 @@ Partial Class frmMain
         Me.Button3.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(109, 111)
+        Me.Button3.Location = New System.Drawing.Point(101, 111)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(76, 72)
         Me.Button3.TabIndex = 9
@@ -675,7 +675,7 @@ Partial Class frmMain
         Me.ToolStrip2.BackColor = System.Drawing.Color.FromArgb(CType(CType(3, Byte), Integer), CType(CType(46, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ToolStrip2.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton2, Me.ToolStripButton5, Me.ToolStripButton6, Me.ToolStripButton7, Me.ToolStripButton8, Me.ToolStripButton9, Me.ToolStripButton10, Me.ToolStripButton11, Me.ToolStripButton12})
-        Me.ToolStrip2.Location = New System.Drawing.Point(0, 28)
+        Me.ToolStrip2.Location = New System.Drawing.Point(0, 30)
         Me.ToolStrip2.Name = "ToolStrip2"
         Me.ToolStrip2.Size = New System.Drawing.Size(1393, 68)
         Me.ToolStrip2.TabIndex = 24
@@ -805,9 +805,9 @@ Partial Class frmMain
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.ToolStripLabel2, Me.ToolStripLabel3, Me.ToolStripLabel4, Me.ToolStripLabel5, Me.ToolStripLabel6, Me.ToolStripLabel7, Me.ToolStripLabel8})
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 883)
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 877)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(1393, 25)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1393, 31)
         Me.ToolStrip1.TabIndex = 25
         Me.ToolStrip1.Text = "ToolStrip1"
         '

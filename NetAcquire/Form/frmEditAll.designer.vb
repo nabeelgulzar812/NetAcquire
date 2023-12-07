@@ -1412,7 +1412,7 @@ Partial Class frmEditAll
         Me.chkCoag.Location = New System.Drawing.Point(19, 26)
         Me.chkCoag.Margin = New System.Windows.Forms.Padding(2)
         Me.chkCoag.Name = "chkCoag"
-        Me.chkCoag.Size = New System.Drawing.Size(216, 24)
+        Me.chkCoag.Size = New System.Drawing.Size(217, 24)
         Me.chkCoag.TabIndex = 0
         Me.chkCoag.Text = "Reject Coagulation Sample"
         Me.chkCoag.UseVisualStyleBackColor = True
@@ -1715,7 +1715,7 @@ Partial Class frmEditAll
         Me.Label6.Location = New System.Drawing.Point(32, 58)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(47, 20)
+        Me.Label6.Size = New System.Drawing.Size(45, 20)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "D.o.B"
         '
@@ -3985,10 +3985,10 @@ Partial Class frmEditAll
         'Label80
         '
         Me.Label80.AutoSize = True
-        Me.Label80.Location = New System.Drawing.Point(444, 54)
+        Me.Label80.Location = New System.Drawing.Point(444, 45)
         Me.Label80.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(283, 26)
+        Me.Label80.Size = New System.Drawing.Size(284, 26)
         Me.Label80.TabIndex = 9
         Me.Label80.Text = "No Chart # for Previous Details"
         '
@@ -4075,11 +4075,11 @@ Partial Class frmEditAll
         Me.GroupBox10.Controls.Add(Me.chkCoagPrintFalse)
         Me.GroupBox10.Controls.Add(Me.chkCoagPrintTrue)
         Me.GroupBox10.Controls.Add(Me.Label79)
-        Me.GroupBox10.Location = New System.Drawing.Point(248, 14)
+        Me.GroupBox10.Location = New System.Drawing.Point(248, 1)
         Me.GroupBox10.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox10.Name = "GroupBox10"
         Me.GroupBox10.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.GroupBox10.Size = New System.Drawing.Size(219, 38)
+        Me.GroupBox10.Size = New System.Drawing.Size(264, 49)
         Me.GroupBox10.TabIndex = 5
         Me.GroupBox10.TabStop = False
         '
@@ -4095,7 +4095,7 @@ Partial Class frmEditAll
         '
         'chkCoagPrintTrue
         '
-        Me.chkCoagPrintTrue.Location = New System.Drawing.Point(163, 13)
+        Me.chkCoagPrintTrue.Location = New System.Drawing.Point(202, 13)
         Me.chkCoagPrintTrue.Margin = New System.Windows.Forms.Padding(2)
         Me.chkCoagPrintTrue.Name = "chkCoagPrintTrue"
         Me.chkCoagPrintTrue.Size = New System.Drawing.Size(28, 20)
@@ -4106,7 +4106,7 @@ Partial Class frmEditAll
         'Label79
         '
         Me.Label79.AutoSize = True
-        Me.Label79.Location = New System.Drawing.Point(4, 15)
+        Me.Label79.Location = New System.Drawing.Point(4, 13)
         Me.Label79.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label79.Name = "Label79"
         Me.Label79.Size = New System.Drawing.Size(169, 26)
