@@ -22,7 +22,8 @@ Module modVarcon
     Public formName As String
 
     Public con As New SqlConnection
-    Public ReadOnly cs As String = ReadCS()
+    'Public ReadOnly cs As String = ReadCS()
+    Public ReadOnly cs As String = ("Server=SHAKEEL;Database=Cavan;User Id=sa;Password=angel")
 
     Dim st As String
     Public Function ReadCS() As String

@@ -34,7 +34,7 @@ Partial Class frmAdmin
         Me.txtName = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.cmdSystemRoles = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -194,15 +194,15 @@ Partial Class frmAdmin
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Name"
         '
-        'Button1
+        'cmdSystemRoles
         '
-        Me.Button1.Location = New System.Drawing.Point(346, 30)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(223, 34)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "System Roles"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.cmdSystemRoles.Location = New System.Drawing.Point(346, 30)
+        Me.cmdSystemRoles.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.cmdSystemRoles.Name = "cmdSystemRoles"
+        Me.cmdSystemRoles.Size = New System.Drawing.Size(223, 34)
+        Me.cmdSystemRoles.TabIndex = 2
+        Me.cmdSystemRoles.Text = "System Roles"
+        Me.cmdSystemRoles.UseVisualStyleBackColor = True
         '
         'Button2
         '
@@ -236,7 +236,7 @@ Partial Class frmAdmin
         Me.GroupBox2.Controls.Add(Me.chkUpper)
         Me.GroupBox2.Controls.Add(Me.chkAlpha)
         Me.GroupBox2.Controls.Add(Me.GroupBox3)
-        Me.GroupBox2.Location = New System.Drawing.Point(348, 70)
+        Me.GroupBox2.Location = New System.Drawing.Point(346, 70)
         Me.GroupBox2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Padding = New System.Windows.Forms.Padding(3, 2, 3, 2)
@@ -413,7 +413,7 @@ Partial Class frmAdmin
         Me.g.ReadOnly = True
         Me.g.RowHeadersWidth = 51
         Me.g.RowTemplate.Height = 29
-        Me.g.Size = New System.Drawing.Size(801, 434)
+        Me.g.Size = New System.Drawing.Size(813, 434)
         Me.g.TabIndex = 6
         '
         'Column1
@@ -518,7 +518,7 @@ Partial Class frmAdmin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1052, 719)
+        Me.ClientSize = New System.Drawing.Size(1039, 719)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.cmdSave)
@@ -528,7 +528,7 @@ Partial Class frmAdmin
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.cmdSystemRoles)
         Me.Controls.Add(Me.GroupBox1)
         Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "frmAdmin"
@@ -557,7 +557,7 @@ Partial Class frmAdmin
     Friend WithEvents txtAutologoff As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents cmdAdd As Button
-    Friend WithEvents Button1 As Button
+    Friend WithEvents cmdSystemRoles As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents GroupBox2 As GroupBox

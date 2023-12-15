@@ -57,7 +57,6 @@ C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frm_MicroUsage.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frm_unfinished.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frm24hrUrine.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmActivityLog.resources
-C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmASOT.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmAdmin.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmArchives.resources
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmBatchOccult.resources
@@ -99,3 +98,5 @@ C:\NetAcquire\NetAcquire\bin\Debug\NetAcquire.xml
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.exe
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.xml
 C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.pdb
+C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmASOT.resources
+C:\NetAcquire\NetAcquire\obj\Debug\NetAcquire.frmListsGeneric.resources
